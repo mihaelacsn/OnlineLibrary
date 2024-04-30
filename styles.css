@@ -1,0 +1,141 @@
+:root{
+    --main-color: #d9dae1;
+}
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    background-image: url('imgs/home_background.jpg');
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+.header-container{
+    color: var(--main-color);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 15px;
+    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-bar{
+    display: flex;
+}
+
+.nav-bar li{
+    margin: 0 40px;
+    transition: transform 0.3s ease-in;
+}
+
+.nav-bar li:hover{
+    transform: scale(1.1);
+}
+
+.nav-bar a{
+    text-decoration: none; 
+    color: inherit;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid var(--main-color);
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 200px); 
+    max-width: 100%; 
+    margin: 0 100px;
+}
+
+.main-text{
+    text-align: left;
+    color: var(--main-color);
+    letter-spacing: 0.1rem;
+    flex: 1;
+}
+
+.welcome-text{
+    font-size: 70px;
+}
+
+.intro-text{
+    font-size: 35px;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.move-left {
+    animation: slideInLeft 1s ease-in-out forwards;
+}
+
+.move-right {
+    animation: slideInRight 1s ease-in-out forwards;
+}
+
+.home-image{
+    margin-left: 40px;
+}
+
+.home-image img{
+    max-width: 100%;
+}
+
+.footer{
+    padding: 10px 0;
+}
+
+.footer-content{
+    padding-right: 35px;
+    text-align: right;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    color: var(--main-color);
+    font-family:'Courier New', Courier, monospace;
+}
