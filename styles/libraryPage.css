@@ -44,11 +44,11 @@ ul, li, a {
 
 .nav-bar li{
     margin: 0 40px;
-    transition: transform 0.3s ease-in;
+    transition: transform 0.8s ease-in-out;
 }
 
 .nav-bar li:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .nav-bar a{
@@ -104,6 +104,7 @@ td{
     margin: 0 auto;
     margin-bottom: 10px; 
     transition: transform 1s;
+    opacity: 0.8;
 }
 
 .polaroid:hover{
