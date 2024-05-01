@@ -8,7 +8,7 @@
   }
   
 body{
-    background-image: url('assets/home_background.jpg');
+    background-image: url('/assets/homePage/home_background.jpg');
     background-size: cover;
     margin: 0;
     height: 100vh;
@@ -126,6 +126,7 @@ main{
 .home-image img{
     max-width: 100%;
     opacity: 0.8;
+    border-radius: 0.5%;
 }
 
 .footer{
