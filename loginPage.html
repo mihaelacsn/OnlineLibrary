@@ -6,10 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/homePage.css" />
-    <!-- <link rel="stylesheet" href="../styles/reset.css" /> -->
+    <link rel="stylesheet" href="../styles/loginPage.css" />
     <link rel="stylesheet" href="../styles/commonStyles.css" />
-    <title>Home</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Login</title>
 </head>
 <body>
     <header class="header-container">
@@ -42,21 +42,26 @@
     </header>
     <hr>
     <main>
-        <div class="content-container">
-            <div class="main-text move-left">
-                <p class="welcome-text satisfy-regular">Welcome to the library,</p>
-                <p class="intro-text satisfy-regular">where Classic meets Philosophy.</p>
-            </div>
-            <div class="home-image move-right">
-                <img src="/assets/homePage/home_img1.jpg" alt="Image">
-            </div>
+        <div class="wrapper">
+            <form action="">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Username" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                </div>
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember me?</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register-link">
+                    <p>Don't have an account? <a 
+                        href="#">Register</a></p>
+                </div>
+            </form>
         </div>
     </main>
-    <hr>
-    <footer class="footer">
-        <div class="footer-content">
-            <p>"Sapere Aude."</p>
-        </div>
-    </footer>
 </body>
 </html>
