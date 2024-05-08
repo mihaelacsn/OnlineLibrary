@@ -6,62 +6,33 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/loginPage.css" />
-    <link rel="stylesheet" href="../styles/commonStyles.css" />
+    <link rel="stylesheet" href="styles/loginPage.css" />
+    <link rel="stylesheet" href="/styles/commonStyles.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Login</title>
 </head>
 <body>
-    <header class="header-container">
-        <div class="nav-bar">
-            <ul class="left-bar">
-                <li>
-                    <a href="index.html">Home</a></li>
-                <li class="dropdown">
-                    <a href="authorsPages/" class="dropbtn">Authors</a>
-                    <div class="dropdown-content">
-                        <a href="authorsPages/dostoevskyPage.html">1.Fyodor Dostoevsky</a>
-                        <a href="">2.Osamu Dazai</a>
-                        <a href="">3.George Orwell</a>
-                        <a href="">4.Albert Camus</a>
-                        <a href="">5.Franz Kafka</a>
-                        <a href="">6.Friedrich Nietzsche</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="booksPage.html">Books</a></li>
-                <li>
-                    <a href="explorePage.html">Explore</a></li>
-            </ul>
-            
-        </div>
-        <div class="right-bar">
-        <ul class="account">
-            <li><a href="loginPage.html">Account</a></li>
-        </ul>
-    </header>
-    <hr>
-    <main>
-        <div class="wrapper">
-            <form action="">
-                <h1>Login</h1>
-                <div class="input-box">
-                    <input type="text" placeholder="Username" required>
-                </div>
-                <div class="input-box">
-                    <input type="password" placeholder="Password" required>
-                </div>
-                <div class="remember-forgot">
-                    <label><input type="checkbox">Remember me?</label>
-                    <a href="#">Forgot password?</a>
-                </div>
-                <button type="submit" class="btn">Login</button>
-                <div class="register-link">
-                    <p>Don't have an account? <a 
-                        href="#">Register</a></p>
-                </div>
-            </form>
-        </div>
-    </main>
+    <div class="wrapper">
+        <form action="">
+            <h1>Login</h1>
+            <div class="input-box">
+                <i class='bx bx-user'></i>
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="input-box">
+                <i class='bx bx-lock'></i>
+                <input type="password" placeholder="Password" required>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox"> Remember me?</label>
+                <a href="#">Forgot password?</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="register-link">
+                <p>Don't have an account? <a 
+                    href="#">Register</a></p>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
