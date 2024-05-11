@@ -120,4 +120,19 @@ body{
 .btn:hover{
     background: #a3a4aa;
     color: #d9dae1;
-  }
+}
+
+.wrapper hr{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.term-text{
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.term-text a:hover{
+    text-decoration: underline; 
+}

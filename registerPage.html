@@ -9,28 +9,38 @@
     <link rel="stylesheet" href="styles/account.css" />
     <link rel="stylesheet" href="/styles/commonStyles.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Login</title>
+    <title>Register</title>
 </head>
 <body>
     <div class="wrapper">
         <form action="">
-            <h1>Login</h1>
+            <h1>Register</h1>
+            <div class="input-box">
+                <i class='bx bx-user'></i>
+                <input type="text" placeholder="Your name" required>
+            </div>
             <div class="input-box">
                 <i class='bx bx-user'></i>
                 <input type="text" placeholder="Username" required>
             </div>
             <div class="input-box">
-                <i class='bx bx-lock'></i>
+                <i class='bx bx-envelope'></i>
+                <input type="text" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <i class='bx bx-lock-open'></i>
                 <input type="password" placeholder="Password" required>
             </div>
-            <div class="remember-forgot">
-                <label><input type="checkbox"> Remember me?</label>
-                <a href="#">Forgot password?</a>
+            <div class="input-box">
+                <i class='bx bx-lock'></i>
+                <input type="password" placeholder="Repeat the Password" required>
             </div>
-            <button type="submit" class="btn">Login</button>
+            <hr>
+            <p class="term-text">By Signing Up you agree to our <a href="#"><b>Terms&Privacy</b></a>.</p>
+            <button type="submit" class="btn">Sign Up</button>
             <div class="register-link">
-                <p>Don't have an account? <a 
-                    href="registerPage.html">Register</a></p>
+                <p>Already have an account?<a 
+                    href="loginPage.html"> Login</a></p>
             </div>
         </form>
     </div>
