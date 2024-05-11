@@ -9,29 +9,21 @@
     <link rel="stylesheet" href="styles/account.css" />
     <link rel="stylesheet" href="/styles/commonStyles.css" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <title>Login</title>
+    <title>Account recovery</title>
 </head>
 <body>
     <div class="wrapper">
         <form action="">
-            <h1>Login</h1>
-            <div class="input-box">
-                <i class='bx bx-user'></i>
-                <input type="text" placeholder="Username" required>
+            <h1>Forgot Password</h1>
+            <div class="recovery-text-wrapper"> 
+                <p class="recover-text">Please enter the email address associated 
+                    with your account and we'll send you a link to reset your password.</p>
             </div>
             <div class="input-box">
-                <i class='bx bx-lock'></i>
-                <input type="password" placeholder="Password" required>
+                <i class='bx bx-envelope'></i>
+                <input type="text" placeholder="Email" required>
             </div>
-            <div class="check-box">
-                <label><input type="checkbox"> Remember me?</label>
-                <a href="forgotPage.html">Forgot password?</a>
-            </div>
-            <button type="submit" class="btn">Login</button>
-            <div class="register-link">
-                <p>Don't have an account? <a 
-                    href="registerPage.html">Register</a></p>
-            </div>
+            <button type="submit" class="btn"><a href="#">Continue</a></button>
         </form>
     </div>
 </body>
