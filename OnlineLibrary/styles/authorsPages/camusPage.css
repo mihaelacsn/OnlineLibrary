@@ -1,0 +1,133 @@
+body{
+    background-image: url('/assets/authorsPage/camus_bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.section1{
+    display: flex;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(100% - 200px); 
+    max-width: 100%; 
+    margin: 0 100px;
+}
+
+.main-text{
+    letter-spacing: 0.1rem;
+    flex: 1;
+}
+
+.authors-name{
+    font-size: 80px;
+    text-align: right;
+    color: white;
+    margin-bottom: 0;
+}
+
+.quote{
+    font-size: 25px;
+    margin: 0;
+    text-align: end;
+    color: white;
+}
+
+.authors-img{
+    margin-right: 20px;
+    margin-bottom: 40px;
+    background-blend-mode: multiply;
+    height: 75vh;
+    margin-top: 50px;
+    opacity: 0.8;
+    margin-bottom: 0;
+}
+
+.bg1{
+    background: linear-gradient(to top, #575556, transparent);
+    flex-direction: row;
+    margin: 50px;
+    width: 100%;
+}
+
+.bg2{
+    background: #575556;
+    width: 100%;
+}
+
+.bg1,
+.bg2 {
+    margin: 0; 
+    padding: 0; 
+}
+
+.authors-img2{
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-blend-mode: multiply;
+}
+
+.authors-img2 img{
+    height: 55vh;
+    width: auto;
+    opacity: 0.8;  
+}
+
+.info-section{
+    font-size: 16px;
+    color: var(--main-color);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 70px;
+    margin-top: 80px;
+    margin-right: 70px;
+    text-align: justify;
+}
+
+.decor-img img{
+   height: 55vh;
+   opacity: 0.9;
+}
+
+.decor-img{
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    background-blend-mode: multiply;
+}
+
+.books-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.book-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+  }
+
+  .book-item img {
+    max-width: 100%; 
+    height: auto; 
+  }
+
+  .book-intro{
+    /* margin-top:40px; */
+    font-size: 50px;
+    color: var(--main-color);
+    text-align: center;
+    margin: 0;
+  }
