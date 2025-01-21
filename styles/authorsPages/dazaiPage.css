@@ -1,5 +1,5 @@
 body{
-    background-image: url('/assets/authorsPage/winter_backgr.jpg');
+    background-image: url('/assets/authorsPage/dazai_bg.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -40,29 +40,26 @@ body{
 }
 
 .authors-img{
-    margin-right:0;
-    margin-bottom: 40;
+    margin-right: 20px;
+    margin-bottom: 40px;
     background-blend-mode: multiply;
-}
-
-.authors-img img{
-    height: 60vh;
-    width: auto;
+    height: 75vh;
+    margin-top: 50px;
     opacity: 0.9;
     margin-bottom: 0;
-    
 }
 
 .bg1{
-    background: linear-gradient(to top, #4d4a47, transparent);
+    background: linear-gradient(to top, #0c0c0c, transparent);
     flex-direction: row;
-    margin:50;
+    margin: 50px;
     width: 100%;
     
 }
 
 .bg2{
-    background: #4d4a47;
+    background: #0c0c0c;
+    
     width: 100%;
 }
 
@@ -90,13 +87,14 @@ body{
     color: var(--main-color);
     font-family: 'Courier New', Courier, monospace;
     margin-left: 70px;
-    margin-top: 100px;
+    margin-top: 90px;
     margin-right: 70px;
     text-align: justify;
 }
 
 .decor-img img{
    height: 55vh;
+   opacity: 0.9;
 }
 
 .decor-img{
@@ -129,6 +127,7 @@ body{
   }
 
   .book-intro{
+    /* margin-top:40px; */
     font-size: 50px;
     color: var(--main-color);
     text-align: center;

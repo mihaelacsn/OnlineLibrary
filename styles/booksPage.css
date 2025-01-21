@@ -33,7 +33,7 @@ body{
     margin-right: auto;
 }
 .grid-item {
-    position: relative; /* Ensure positioning context for child elements */
+    position: relative; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ body{
 }
 
 .bg-img {
-    position: absolute; /* Position the background image */
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;

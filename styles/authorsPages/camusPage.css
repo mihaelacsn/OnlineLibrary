@@ -1,5 +1,5 @@
 body{
-    background-image: url('/assets/authorsPage/winter_backgr.jpg');
+    background-image: url('/assets/authorsPage/camus_bg.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -28,7 +28,7 @@ body{
 .authors-name{
     font-size: 80px;
     text-align: right;
-    color: var(--main-color);
+    color: white;
     margin-bottom: 0;
 }
 
@@ -40,29 +40,24 @@ body{
 }
 
 .authors-img{
-    margin-right:0;
-    margin-bottom: 40;
+    margin-right: 20px;
+    margin-bottom: 40px;
     background-blend-mode: multiply;
-}
-
-.authors-img img{
-    height: 60vh;
-    width: auto;
-    opacity: 0.9;
+    height: 75vh;
+    margin-top: 50px;
+    opacity: 0.8;
     margin-bottom: 0;
-    
 }
 
 .bg1{
-    background: linear-gradient(to top, #4d4a47, transparent);
+    background: linear-gradient(to top, #575556, transparent);
     flex-direction: row;
-    margin:50;
+    margin: 50px;
     width: 100%;
-    
 }
 
 .bg2{
-    background: #4d4a47;
+    background: #575556;
     width: 100%;
 }
 
@@ -82,7 +77,7 @@ body{
 .authors-img2 img{
     height: 55vh;
     width: auto;
-    opacity: 0.9;  
+    opacity: 0.8;  
 }
 
 .info-section{
@@ -90,13 +85,14 @@ body{
     color: var(--main-color);
     font-family: 'Courier New', Courier, monospace;
     margin-left: 70px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-right: 70px;
     text-align: justify;
 }
 
 .decor-img img{
    height: 55vh;
+   opacity: 0.9;
 }
 
 .decor-img{
@@ -129,6 +125,7 @@ body{
   }
 
   .book-intro{
+    /* margin-top:40px; */
     font-size: 50px;
     color: var(--main-color);
     text-align: center;

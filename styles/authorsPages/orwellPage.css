@@ -1,5 +1,5 @@
 body{
-    background-image: url('/assets/authorsPage/winter_backgr.jpg');
+    background-image: url('/assets/authorsPage/orwell_bg.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -40,29 +40,24 @@ body{
 }
 
 .authors-img{
-    margin-right:0;
-    margin-bottom: 40;
+    margin-right: 20px;
+    margin-bottom: 40px;
     background-blend-mode: multiply;
-}
-
-.authors-img img{
-    height: 60vh;
-    width: auto;
-    opacity: 0.9;
+    height: 75vh;
+    margin-top: 50px;
+    opacity: 0.8;
     margin-bottom: 0;
-    
 }
 
 .bg1{
-    background: linear-gradient(to top, #4d4a47, transparent);
+    background: linear-gradient(to top, #211d17, transparent);
     flex-direction: row;
-    margin:50;
+    margin: 50px;
     width: 100%;
-    
 }
 
 .bg2{
-    background: #4d4a47;
+    background: #211d17;
     width: 100%;
 }
 
@@ -82,7 +77,7 @@ body{
 .authors-img2 img{
     height: 55vh;
     width: auto;
-    opacity: 0.9;  
+    opacity: 0.8;  
 }
 
 .info-section{
@@ -97,6 +92,7 @@ body{
 
 .decor-img img{
    height: 55vh;
+   opacity: 0.8;
 }
 
 .decor-img{
@@ -129,6 +125,7 @@ body{
   }
 
   .book-intro{
+    /* margin-top:40px; */
     font-size: 50px;
     color: var(--main-color);
     text-align: center;
