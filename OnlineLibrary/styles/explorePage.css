@@ -1,0 +1,82 @@
+body{
+    background-image: url('/assets/homePage/home_background2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* min-height: 1200px; */
+    margin: 0;
+    height: 100vh;
+    
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table-title{
+    color: var(--main-color);
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.table-content{
+    color: var(--main-color);
+    border-collapse: collapse;
+}
+
+td{
+    padding-left: 50px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.polaroid {
+    position: relative;
+    overflow: hidden; 
+}
+
+.polaroid img {
+    display: block;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px; 
+    transition: transform 1s;
+    opacity: 0.8;
+}
+
+.polaroid:hover{
+    transform: scale(1.1);
+}
+
+.img-title {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px; 
+}
+
+.img-title a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+.img-title a:hover{
+    text-decoration: underline;
+}
